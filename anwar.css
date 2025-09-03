@@ -69,7 +69,7 @@ z-index: 4;
     top: 0;
     left: 0;
     backface-visibility: hidden;
-    overflow: hidden;
+    overflow-y: auto;
     transition: transform 2s;
     transform-origin: left;
     display: flex;
