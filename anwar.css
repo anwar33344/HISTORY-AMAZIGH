@@ -49,7 +49,7 @@ body {
     position: relative;
     width: 300px;
     height: 400px;
-    background-color: blue;
+    background-image: url("cover.jpg.jpg");
     position: relative;
     perspective: 1500px;
     z-index: 1;
@@ -63,7 +63,7 @@ z-index: 4;
     width: 100%;
     height: 100%;
     background: #efe7bf;
-    border: 2px solid #1e31d9;
+    border: 2px solid #15043e;
     border-radius: 8px;
     position: absolute;
     top: 0;
@@ -81,7 +81,7 @@ z-index: 4;
     box-sizing: border-box;
 }
    .page {
-    background: blue;
+    background: rgb(217, 217, 209);
     color: rgb(207, 142, 14);
     font-weight: bold;
     font-size: 22px;
@@ -113,23 +113,43 @@ button:hover {
     background: #333;
    
 }
+
 .page1 {
-    background: blue;
-    font-size: 29px;
-    color: gold;
-    text-align: center;
-    margin-bottom: 10px;
-    font-weight: bold;
-    text-shadow: 1px 1px 5px black;
-    
-    
+background-image: url("cover.jpg.jpg"); 
+background-size:100% 100%;  
+background-position: center;
+background-repeat: no-repeat;
+font-size: 30px;
+color: gold;
+  
+ 
+ 
 }
+    
+    
+
+
 
 
 .page2 { background: rgb(236, 145, 48); color: black; z-index: 3; }
 .page3 { background: rgb(236, 145, 48); color: black; z-index: 2; }
-.page4 { background: rgb(236, 145, 48); color: black; z-index: 1; }
-.page5 {background: rgb(9, 25, 192); color: black; z-index: 0;
-    color: gold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.page4 { background: rgb(236, 145, 48) ; color: black; z-index: 1; }
+.page5 {background:  rgb(11, 14, 207) ;color: black; z-index: 0;}
+  .page5 {
+    background-image: url("cover.jpg.jpg");
+    background-size: calc(100%-30px)auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  } 
+@media (max-width:600px) {
+    .page1 {
+     background-image: url("cover.jpg.jpg"); 
+background-size:100% 100%;  
+background-position: center;
+background-repeat: no-repeat;
+font-size: 30px;
+color: gold;   
+    }
 }
+
+
